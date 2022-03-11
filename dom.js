@@ -41,7 +41,7 @@ bodyMain.innerHTML = `
             Este proyecto nació gracias a mi amor por la moda, y cómo esta influye en mi humor y estados de ánimo.<br>
             Sentía que si llevaba puesto cosas que me gustaran incentivaba mi rutina. Me daban más ganas de salir a cumplir mis obligaciones, metas, sueños y lo hacía más cálido en momentos cuando la urbanidad puede resultar pesada y nos pone a prueba.<br>
             Fue por eso que me interesé en el diseño y decidí crear una línea de bolsos que las mujeres no se cansaran de usar en el día a día. 
-            Mi objetivo es que amen y disfruten su Nhox, tanto como yo lo soy diseñando y creando cada una de ellas. 
+            Mi objetivo es que amen y disfruten su Nhox, tanto como yo lo hago diseñando y creando cada una de ellas. 
             </p>
             <img src="./assets/img/Celeste_Larluz.jpg" alt="Celeste Larluz"/>
         </div>
