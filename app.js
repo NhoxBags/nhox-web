@@ -136,7 +136,7 @@ const setCards = () => {
                       <div class="modal-detalles">
                         <h2>${p.name}</h2>
                         <p>Color: ${p.color}</p>
-                        <button><a href="https://api.whatsapp.com/send?phone=541130876630&text=¡Hola%20Nhox!%20¿Qué%20tal?%20Quería%20consultarte%20por:%20¡${joinedName}!">Consultar por este producto</a></button>
+                        <button><a href="https://api.whatsapp.com/send?phone=542235018592&text=¡Hola%20Nhox!%20¿Qué%20tal?%20Quería%20consultarte%20por:%20¡${joinedName}!">Consultar por este producto</a></button>
                         <p>DESCRIPCIÓN:<br>${p.description}</p>
                         <p>MEDIDAS:<br>${p.size}</p>
                         <p>MATERIAL:<br>${p.materials}</p>
