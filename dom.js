@@ -9,18 +9,18 @@ header.innerHTML = `
             <a class="navbar-brand ms-3" href="#"><h1>NHOX</h1></a>
             <ul class="tabs">
                 <li class="d-flex align-items-center">
-                    <a class="nav-link" href="#about">SOBRE NOSOTROS</a> <span> | </span>
+                    <a class="nav-link borderRight" href="#about">SOBRE NOSOTROS</a>
                 </li>
                 <li class="d-flex align-items-center">
-                    <a class="nav-link" href="#products">PRODUCTOS</a> <span> | </span>
+                    <a class="nav-link borderRight" href="#products">PRODUCTOS</a>
                 </li>
                 <li class="d-flex align-items-center">
                     <a class="nav-link" href="#contact">CONTACTO</a>
                 </li>
             </ul>
-            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <h1 class="offcanvas-title" id="offcanvasExampleLabel">NHOX</h1>
+                    <h1 class="offcanvas-title" id="offcanvasNavbarLabel">NHOX</h1>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -47,7 +47,7 @@ header.innerHTML = `
 
 let bodyMain = document.getElementById("main");
 bodyMain.innerHTML = `
-    <div id="about" class="d-flex" data-aos="fade-up" data-aos-duration="500">
+    <div id="about" class="d-flex">
         <div class="d-flex flex-column">
             <h2>Sobre Nosotros</h2>
             <p>Hola soy <span>Celeste Larluz</span> fundadora de NHOX Bags.<br>
