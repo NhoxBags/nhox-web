@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Chathura&family=Lato:wght@300;400&display=swap");
+@font-face {
+  font-family: 'Century Schoolbook';
+  src: url(./assets/fonts/CENSCBK.TTF) format("truetype");
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -26,7 +32,7 @@ body p {
 }
 
 body h1 {
-  font-family: "Zen Antique Soft", serif;
+  font-family: "Century Schoolbook", serif;
   font-size: 1rem;
 }
 
@@ -51,7 +57,7 @@ h2 {
 
 #header nav .offcanvas-title {
   font-size: 2em;
-  font-family: "Zen Antique Soft", serif;
+  font-family: "Century Schoolbook", serif;
   color: #9B9393;
 }
 
@@ -291,7 +297,7 @@ h2 {
   .navbar-brand h1 {
     padding-right: 54px;
     text-align: center;
-    font-family: "Zen Antique Soft", serif;
+    font-family: "Century Schoolbook", serif;
     font-size: 1.875em;
   }
 }
@@ -317,7 +323,7 @@ h2 {
     font-size: 40px;
   }
   .navbar .navbar-brand h1 {
-    font-family: "Zen Antique Soft", serif;
+    font-family: "Century Schoolbook", serif;
     font-size: 1.1em;
   }
   .navbar .navbar-brand h2 {
