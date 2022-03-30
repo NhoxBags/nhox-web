@@ -211,6 +211,7 @@ h2 {
 
         img {
             border-radius: 2px;
+            cursor: pointer;
         }
 
         .btnVerMas {
@@ -300,9 +301,6 @@ h2 {
 
 
 @media screen and (max-width:1399px) {
-    body {
-        font-size: 16px;
-    }
 
     .offcanvas-start {
         width: 75vw;
