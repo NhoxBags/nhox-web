@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'Century Schoolbook';
-    src: url(./assets/fonts/CENSCBK.TTF) format('truetype');
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Chathura&family=Lato:wght@300;400&display=swap');
 
 $font-body: 'Lato',
@@ -113,13 +108,15 @@ h2 {
     span {
         font-style: italic;
         font-weight: bold;
+        padding-right: 2px;
     }
 
     img {
         border-radius: 2px;
         width: 34vw;
         height: calc(34vw*1.33);
-        margin-left: 4%;
+        margin-left: 1.35%;
+        padding-top: 10px;
     }
 
     p {

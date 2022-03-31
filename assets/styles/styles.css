@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Chathura&family=Lato:wght@300;400&display=swap");
-@font-face {
-  font-family: 'Century Schoolbook';
-  src: url(./assets/fonts/CENSCBK.TTF) format("truetype");
-}
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -89,13 +84,15 @@ h2 {
 #about span {
   font-style: italic;
   font-weight: bold;
+  padding-right: 2px;
 }
 
 #about img {
   border-radius: 2px;
   width: 34vw;
   height: calc(34vw*1.33);
-  margin-left: 4%;
+  margin-left: 1.35%;
+  padding-top: 10px;
 }
 
 #about p {
